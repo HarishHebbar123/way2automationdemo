@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All" thread-count="8" parallel="methods">
+
+    <test name="Tests">
+        <packages>
+            <package name="way2automation.*"/>
+        </packages>
+    </test>
+
+</suite>
